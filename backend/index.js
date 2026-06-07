@@ -174,4 +174,8 @@ setInterval(() => {
     });
 }, 60 * 1000); 
 
-app.listen(5000, () => console.log("Engine Running on 5000"));
+const PORT = process.env.PORT || 5000;
+
+app.listen(PORT, () => {
+  console.log(`Engine Running on ${PORT}`);
+});
