@@ -1,0 +1,7 @@
+node_modules/
+downloads/
+downloads - Copy/
+node_modules - Copy/
+dist/
+build/
+.env
